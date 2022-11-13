@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+body{
+    height: 100vh;
+    background-image: url("assets/bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+.boxnama, .boxemail {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: aqua;
+    text-align: center;
+	font-size: large;
+    background-color: rgba(0, 150, 0, 0.2)
+}
+
+.start{
+    width: 170px;
+    height: 40px;
+    font-size: larger;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    border-color: aqua;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center; 
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 5px;
+    background-image: linear-gradient(to right, rgba(252, 15, 192), rgba(65, 47, 136));
+}
+
+
+.leaderboard {
+    width: 180px;
+    height: 40px;
+    font-size: larger;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    border-color: aqua;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center; 
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 10px;
+    background-image: linear-gradient(to right, rgba(114, 43, 106), rgba(65, 47, 136), rgba(16, 52, 166));
+}
+
+.back{
+  width: 150px;
+  height: 40px;
+  font-size: larger;
+  color: white;
+  border-radius: 30px 30px 30px 30px;
+  border-color: aqua;
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center; 
+  text-decoration: none;
+  padding-top: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, rgba(114, 43, 106), rgba(65, 47, 136), rgba(16, 52, 166));
+}
+.title {
+   font-size: xx-large;
+   color: white;
+   margin-left:auto;
+   margin-right:auto;
+   text-align: center;
+}
+
+.profile{
+    display: inline-flex;
+    margin-left: 41%;
+ margin-top: 20px;
+ position: relative;
+}
+
+.profile1{
+    width: 100px;
+    height: 150px;
+    background: rgba(0, 0, 0,0.2);
+    border-radius: 20px;
+    margin-right: 50px;
+    
+}
+
+.profile1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 35px;
+}
+
+.profile1 .foto1{
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+.profile2{
+    width: 100px;
+    height: 150px;
+    background: rgba(0, 0, 0,0.2);
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.profile2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 35px;
+}
+
+.profile2 .foto2{
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+
+.nama {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+  .wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .container {
+    margin-top: 300px;
+    width: 35vmin;
+    height: 35vmin;
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 2vmin;
+  }
+  
+  .button-option {
+    background: grey;
+    height:70px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 11vmin;
+    color: yellow;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  }
+
+  #new-game {
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+    margin-bottom: 120px;
+  }
+
+  #new-game img:hover{
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  .popup {
+    background-image: url(assets/bgstatus.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position:center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 10vmin;
+    
+  }
+
+  #message {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 26.5%;
+    font-size: 30px;
+    position: relative;
+  }
+  .popup.hide {
+    display: none;
+  }
+
